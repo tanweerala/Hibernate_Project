@@ -1,0 +1,17 @@
+HQL(Hibernate query language)
+-----------------------------
+We can create our own query in hibernate
+In this query we will use Persistent class as table and instance variables as column
+In order to execute this query we will have to create an object of Query interface
+
+Query<Person> query=session.createQuery("from Person",Person.class);	
+List<Person> personList=query.list();
+
+list() method of Query interface
+---------------------------------
+1)Fetch all records from table
+2)Create object of Person class for each record
+3)Store data into objects
+4)Create object of List collection
+5)Store reference of objects into list collection
+6)Returns reference of list colleciotn 

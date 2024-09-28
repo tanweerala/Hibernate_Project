@@ -1,0 +1,15 @@
+SessionFactory interface
+------------------------
+Write following code to create object of this interface
+This is the first object that our program will create
+
+//Code to create object of SessionFacvtory interface
+SessionFactory factory=new Configuration().configure("hibernate.cfg.xml").buildSessionFactory();
+
+Followsing operation will be performed by SessionFactory interface
+1)Connection with database
+2)Performing DDL operation
+3)Creating object of Session interface
+
+
+

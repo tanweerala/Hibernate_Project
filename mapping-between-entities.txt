@@ -1,0 +1,25 @@
+Mapping between entities(persistent classes)
+---------------------------------------------
+We can implement following two mapping between persistent classes
+1)Association mapping
+2)Inheritance mapping
+
+Association mapping
+-------------------
+This mapping is required when object of a class is creates and used by other classes
+Association mapping can be of following 4 types
+1)One to one mapping
+2)One to many mapping
+3)Many to one mapping
+4)Many to many mapping
+
+One to one mapping
+-------------------
+One instance of first entity is associated with only one instance of second entity.Similarly one instance of second entity is associated with only one instance of first entity
+For example association between adharcard and person
+
+
+
+
+
+

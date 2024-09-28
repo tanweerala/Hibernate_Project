@@ -1,0 +1,4 @@
+Persiting object
+================
+Saving state/data of the object into database table or into file is known as persisting object.ORM tools persist object into table not into file
+

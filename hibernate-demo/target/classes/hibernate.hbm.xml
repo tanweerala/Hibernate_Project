@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8'?>  
+<!DOCTYPE hibernate-mapping PUBLIC  
+ "-//Hibernate/Hibernate Mapping DTD 5.3//EN"  
+ "http://hibernate.sourceforge.net/hibernate-mapping-5.3.dtd">  
+ 
+<hibernate-mapping> 
+  <class name="com.cetpa.Product" table="productinfo">
+   <id name="pid" column="product_id">
+    <generator class="assigned" />
+   </id>
+   <property name="name" column="product_name"/>
+   <property name="brand" column="product_brand"/>
+   <property name="price" column="product_price"/>
+  </class>	   
+</hibernate-mapping>  

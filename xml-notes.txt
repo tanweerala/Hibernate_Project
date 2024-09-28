@@ -1,0 +1,8 @@
+XML
+---
+XML stands for extensible markup language
+It is used to store data in structured format in a file
+Data stored in XML file is used by program
+In java our program creates xml documents and keeps project configuration into it and gives xml file to the framework(hibernate,spring,spring mvc,etc)
+We will use tags to keep data into xml documents
+We can also create our tags 

@@ -1,0 +1,29 @@
+Creating persistent class
+--------------------------
+Object of this class will be saved/persisted by hibernate into database
+1)Our program will created object of this object
+2)Our program will keep data into this object
+3)Our program will give reference of this object to the hibernate
+4)Hibernate will save data of this object into table
+On demand of program, hibernate will give reference of this object to the program
+This class must be defined by we
+This class must be a POJO class
+POJO stands for plain old java object
+A POJO class must have following characteristics
+1)Private instance variable:To hold data
+2)Default constructor:To create object
+3)Getter and setter:To get data and to change data
+
+public class Employee
+{
+  private int eid;
+  private String name;
+  private String department;	
+  private int salary;
+  //getter and setter
+}
+
+
+
+
+

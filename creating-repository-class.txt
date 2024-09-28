@@ -1,0 +1,12 @@
+Creating repository class
+-------------------------
+Define this class
+Inside this class write code to interact with hibernate
+Our repository class can use following interface to interact with hibernate
+1)SessionFactory interface
+2)Session interface
+3)Transaction interface
+4)Query interface
+etc
+
+Our program will create object of these interfaces and call methods of these interface

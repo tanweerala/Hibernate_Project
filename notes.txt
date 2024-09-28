@@ -1,0 +1,20 @@
+Hibernate framework
+--------------------
+It is an ORM(object relational mapping) tool
+It is an implementation of JPA(Java persistence API)
+This framework is used to perform database operations such as creating tables,inserting record into table,updating record,deleting record,filtering record,etc
+Hibernate will call JDBC API to perform above tasks
+
+ORM
+---
+ORM stands for object relational mapping
+Every ORM tool maps object(created by program) with records in table
+Let us suppose our program wants to insert record of an employee into table
+If our program is using ORM tool then
+1)Program will create an object of Employee class and keep data into that object
+2)Program will give reference of this object to the ORM tool
+3)ORM tool will insert data of object as a record into table by calling JDBC API
+
+Inserting data of the object into table is called persisting object
+
+

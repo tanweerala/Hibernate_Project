@@ -1,0 +1,25 @@
+Configuring project dependencies into pom.xml file
+--------------------------------------------------
+All extenal jar files will be dependency of our project
+These jar files will be downloaded and added into project by Maven
+Maven must have information/data about these depdencies
+These information must be kept by your into pom.xml file under dependencies tag
+code should be like this
+
+//code for hibernate jat files
+<dependency>
+  <groupId>org.hibernate</groupId>
+  <artifactId>hibernate-core</artifactId>
+  <version>5.6.10.Final</version>
+</dependency>
+
+//code for mysql-connector jar file
+<dependency>
+  <groupId>mysql</groupId>
+  <artifactId>mysql-connector-java</artifactId>
+  <version>8.0.27</version>
+</dependency>
+
+POM stands for project object model
+
+

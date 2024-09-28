@@ -1,0 +1,7 @@
+Inheritance mapping
+===================
+This mapping is required when one entity(persistent class) is inherited by other entity
+We will have to set one of the following inheritance strategy in this mapping
+1)Single table strategy
+2)Joined table strategy
+3)Table per class strategy

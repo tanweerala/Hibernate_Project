@@ -1,0 +1,37 @@
+Creating maven project
+-----------------------
+What is maven?
+--------------
+It is a one of the build tool
+Project developer uses build tool as a project helper
+Build tool helps in building project.It performs several taks such as
+1)Creating directory structure of the project
+2)Downloading and adding project dependencies into project
+3)Complining source code of the project
+4)Creating deployable file of the project
+5)Deploying project on server
+etc
+
+How to build maven project?
+---------------------------
+1)Go to file->new->maven project
+2)Click on maven project
+3)Click on next button of new maven project window
+4)Select internal from the catalog drop down box
+5)Choose project archetype from the list of archetypes
+(It could be either maven-archetype-quickstart or maven-archetype-webapp)
+Choose maven-archetype-quickstart for standalone application.It will be by default selected
+Choose maven-archetype-webapp for web application
+6)Click on next button
+7)Enter group id,artifact id and package name
+You can enter com.cetpa as group id
+You can enter project name as artifact id
+You can enter com.cetpa as package name
+8)Click on finish button
+
+Now your project structure is created
+Don't forget to change J2SE version.It is by default 1.5
+You will have to use 1.8
+ 
+
+

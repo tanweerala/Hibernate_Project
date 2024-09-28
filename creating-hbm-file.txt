@@ -1,0 +1,23 @@
+Creating hbm file
+------------------
+HBM stands for hibernate mapping
+We will have to map persistent class with the database table
+This mapping must be configured into an xml file
+This xml file will be used by hibernate
+This file is known as hbm file
+We will have to write following code for mapping
+
+<hibernate-mapping> 
+  <class name="com.cetpa.Employee" table="employeeinfo">
+   <id name="eid" column="eid">
+    <generator class="assigned" />
+   </id>
+   <property name="name" column="name"/>
+   <property name="department" column="dept"/>
+   <property name="salary" column="salary"/>
+  </class>	   
+</hibernate-mapping>  
+
+Name of this file should be hibernate.hbm.xml and this file must be created inside src/main folder
+
+

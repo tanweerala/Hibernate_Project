@@ -1,0 +1,10 @@
+Session interface
+-----------------
+Our program will create object of this interface and call methods of this interface to perform DML and DQL operation
+Sesison session=factory.openSession();
+
+Transaction interface
+----------------------
+DML operation can be performed without calling begin() and commit() method of this interface
+It means our program will also create object of this interface and call beign() and commit() method of this interface
+Transaction t=session.getTransaction();

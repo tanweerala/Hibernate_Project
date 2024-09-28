@@ -1,0 +1,24 @@
+Using annotation in mapping
+---------------------------
+We can use annotations for mapping of persistent class with database table
+In this case we do not need to create hbm file
+Here we will configure mapping od persistent class with table using annotations
+We will use annotations in persistent class
+
+@Entity
+@Table(name="personinfo")
+public class Person 
+{
+	@Id
+	@Column(name="person_pid")
+	private int pid;
+	@Column(name="person_name")
+	private String name;
+	@Column(name="person_city")
+	private String city;
+	@Column(name="person_phone")
+	private String phone;
+	@Column(name="person_age")
+	private int age;
+	//getter and setter
+}
